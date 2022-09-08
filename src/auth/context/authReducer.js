@@ -21,6 +21,7 @@ export const authReducer = ( state = {}, action ) => {
                 logged: false
             };
         default:
+            console.log('state: ' + JSON.stringify(state));
             return state;
 
     }
